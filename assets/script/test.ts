@@ -38,8 +38,8 @@ export class test extends Component {
                 const senderMsg = this.editBoxTextLabel.getComponent(Label).string;
                 const node = instantiate(this.prefab);
                 node.getComponent(setLabel).setLabelFunc(senderMsg);
-                socket.emit("sender message", senderMsg);
-                this.scrollView.content.addChild(node);
+                socket.emit("chat message", senderMsg);
+                // this.scrollView.content.addChild(node);
                 this.editBoxTextLabel.string = "";
             },
             this
