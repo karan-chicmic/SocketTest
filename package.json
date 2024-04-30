@@ -1,11 +1,14 @@
 {
-  "name": "SocketTest",
-  "uuid": "02a1ff50-0d38-4791-8f4d-3d5a3a4a5fc4",
-  "creator": {
-    "version": "3.8.2"
-  },
-  "dependencies": {
-    "socket.io": "^4.7.5",
-    "socket.io-client": "^4.7.5"
-  }
+    "name": "SocketTest",
+    "uuid": "02a1ff50-0d38-4791-8f4d-3d5a3a4a5fc4",
+    "proxy": "http://localhost:3000",
+    "creator": {
+        "version": "3.8.2"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "socket.io": "^4.7.5",
+        "socket.io-client": "^4.7.5"
+    }
 }
